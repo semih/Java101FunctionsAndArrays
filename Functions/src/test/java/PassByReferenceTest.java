@@ -15,8 +15,8 @@ public class PassByReferenceTest {
         Foo b = new Foo(1);
 
         PassByReference.modify(a, b);
+
         assertEquals(a.number, 2);
         assertEquals(b.number, 1);
-
     }
 }
