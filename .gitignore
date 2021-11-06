@@ -41,3 +41,6 @@ out/
 *.iml
 *.ipr
 *.iws
+
+## MacOs
+**/.DS_Store
